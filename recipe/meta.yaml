@@ -41,6 +41,7 @@ test:
   source_files:
     - tests
   requires:
+    - pip
     - pytest
   commands:
     - pip check
