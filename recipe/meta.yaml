@@ -40,6 +40,8 @@ requirements:
 test:
   source_files:
     - tests
+  imports:
+    - gdstk
   requires:
     - pip
     - pytest
