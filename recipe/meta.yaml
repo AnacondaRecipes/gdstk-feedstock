@@ -24,13 +24,13 @@ requirements:
     - cmake >=3.26.0
     - make
   host:
-    - numpy
     - python
     - pip
+    - numpy >=2.0
     - scikit-build-core
     - qhull
     - wheel
-    - zlib
+    - zlib >=1.2.7
   run:
     - typing_extensions
     - numpy
