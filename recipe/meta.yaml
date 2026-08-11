@@ -32,9 +32,8 @@ requirements:
     - wheel
     - zlib >=1.2.7
   run:
-    - typing_extensions
-    - numpy
     - python
+    - numpy
     - typing-extensions  # [py<311]
 
 test:
