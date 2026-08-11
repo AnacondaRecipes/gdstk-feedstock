@@ -22,7 +22,8 @@ requirements:
     - {{ compiler('cxx') }}
     - {{ stdlib('c') }}
     - cmake >=3.26.0
-    - make
+    - make        # [unix]
+    - ninja-base  # [win]
   host:
     - python
     - pip
