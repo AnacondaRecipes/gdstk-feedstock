@@ -49,7 +49,6 @@ about:
   license: BSL-1.0
   license_file: LICENSE.txt
   summary: Gdstk (GDSII Tool Kit) is a C++/Python library for creation and manipulation of GDSII and OASIS files.
-
   description: |
     Gdstk (GDSII Tool Kit) is a C++ library for creation and manipulation of
     GDSII and OASIS files.  It is also available as a Python module meant to
@@ -57,7 +56,7 @@ about:
     layouts are included: boolean operations on polygons (AND, OR, NOT, XOR)
     based on clipping algorithm; polygon offset (inward and outward rescaling
     of polygons); efficient point-in-polygon solutions for large array sets.
-  doc_url: https://heitzmann.github.io/gdstk/
+  doc_url: https://heitzmann.github.io/gdstk
   dev_url: https://github.com/heitzmann/gdstk
 
 extra:
