@@ -43,6 +43,7 @@ test:
   requires:
     - pytest
   commands:
+    - pip check
     - pytest -vv tests
 
 about:
